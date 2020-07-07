@@ -20,7 +20,7 @@ class LoginController extends Controller
         ];
 
         $messages = [
-            'tbUsername' => 'Morate uneti korisničko ime'
+            'tbUsername' => 'Morate uneti korisničko ime!!!'
         ];
 
         $this->validate($request, $rules, $messages);
